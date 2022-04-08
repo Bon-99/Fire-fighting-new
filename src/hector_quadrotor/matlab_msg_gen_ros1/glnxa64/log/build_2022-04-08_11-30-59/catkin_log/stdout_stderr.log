@@ -1,0 +1,401 @@
+[0/1] Re-running CMake...
+CMake Warning (dev) in CMakeLists.txt:
+  No project() command is present.  The top-level CMakeLists.txt file must
+  contain a literal, direct call to the project() command.  Add a line of
+  code such as
+
+    project(ProjectName)
+
+  near the top of the file, but after cmake_minimum_required().
+
+  CMake is pretending there is a "project(Project)" command on the first
+  line.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Using CATKIN_DEVEL_PREFIX: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/devel
+-- Using CMAKE_PREFIX_PATH: /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1;/usr/local/MATLAB/R2021b/toolbox/ros/mlroscpp/custom_messages
+-- This workspace overlays: /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1;/usr/local/MATLAB/R2021b/toolbox/ros/mlroscpp/custom_messages
+-- Using PYTHON_EXECUTABLE: /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /root/.matlab/R2021b/ros1/glnxa64/venv/lib/python2.7/site-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: off
+-- catkin 0.7.17
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 1 packages in topological order:
+-- ~~  - hector_uav_msgs
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'hector_uav_msgs'
+-- ==> add_subdirectory(hector_uav_msgs)
+-- Disabling the following message generators: geneus;genlisp;gennodejs
+-- Using these message generators: gencpp;genpy
+-- Generating .msg files for action hector_uav_msgs/Landing /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/src/hector_uav_msgs/action/Landing.action
+-- Generating .msg files for action hector_uav_msgs/Pose /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/src/hector_uav_msgs/action/Pose.action
+-- Generating .msg files for action hector_uav_msgs/Takeoff /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/src/hector_uav_msgs/action/Takeoff.action
+-- hector_uav_msgs: 42 messages, 1 services
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build
+ninja: no work to do.
+[1/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/src/hector_uav_msgs/msg/HeadingCommand.msg std_msgs/Header
+[2/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/src/hector_uav_msgs/msg/ControllerState.msg std_msgs/Header
+[3/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/src/hector_uav_msgs/msg/RuddersCommand.msg std_msgs/Header
+[4/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/devel/share/hector_uav_msgs/msg/PoseActionFeedback.msg geometry_msgs/Pose:actionlib_msgs/GoalID:std_msgs/Header:hector_uav_msgs/PoseFeedback:geometry_msgs/PoseStamped:geometry_msgs/Point:geometry_msgs/Quaternion:actionlib_msgs/GoalStatus
+[5/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/src/hector_uav_msgs/msg/RawRC.msg std_msgs/Header
+[6/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/src/hector_uav_msgs/msg/HeightCommand.msg std_msgs/Header
+[7/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/devel/share/hector_uav_msgs/msg/TakeoffResult.msg
+[8/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/src/hector_uav_msgs/msg/RawImu.msg std_msgs/Header
+[9/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/devel/share/hector_uav_msgs/msg/PoseAction.msg geometry_msgs/Pose:hector_uav_msgs/PoseFeedback:actionlib_msgs/GoalID:std_msgs/Header:hector_uav_msgs/PoseResult:geometry_msgs/PoseStamped:hector_uav_msgs/PoseGoal:geometry_msgs/Point:hector_uav_msgs/PoseActionResult:geometry_msgs/Quaternion:actionlib_msgs/GoalStatus:hector_uav_msgs/PoseActionGoal:hector_uav_msgs/PoseActionFeedback
+[10/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/src/hector_uav_msgs/msg/VelocityZCommand.msg std_msgs/Header
+[11/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/devel/share/hector_uav_msgs/msg/LandingActionFeedback.msg geometry_msgs/Pose:actionlib_msgs/GoalID:std_msgs/Header:geometry_msgs/PoseStamped:geometry_msgs/Point:geometry_msgs/Quaternion:actionlib_msgs/GoalStatus:hector_uav_msgs/LandingFeedback
+[12/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/devel/share/hector_uav_msgs/msg/LandingGoal.msg geometry_msgs/Pose:geometry_msgs/Point:geometry_msgs/PoseStamped:std_msgs/Header:geometry_msgs/Quaternion
+[13/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/src/hector_uav_msgs/msg/YawrateCommand.msg std_msgs/Header
+[14/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/src/hector_uav_msgs/msg/PositionXYCommand.msg std_msgs/Header
+[15/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/src/hector_uav_msgs/msg/AttitudeCommand.msg std_msgs/Header
+[16/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/devel/share/hector_uav_msgs/msg/TakeoffFeedback.msg geometry_msgs/Pose:geometry_msgs/Point:geometry_msgs/PoseStamped:std_msgs/Header:geometry_msgs/Quaternion
+[17/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/devel/share/hector_uav_msgs/msg/PoseFeedback.msg geometry_msgs/Pose:geometry_msgs/Point:geometry_msgs/PoseStamped:std_msgs/Header:geometry_msgs/Quaternion
+[18/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/devel/share/hector_uav_msgs/msg/LandingActionGoal.msg geometry_msgs/Pose:actionlib_msgs/GoalID:std_msgs/Header:hector_uav_msgs/LandingGoal:geometry_msgs/PoseStamped:geometry_msgs/Point:geometry_msgs/Quaternion
+[19/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/devel/share/hector_uav_msgs/msg/TakeoffGoal.msg
+[20/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/devel/share/hector_uav_msgs/msg/PoseActionResult.msg actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:std_msgs/Header:hector_uav_msgs/PoseResult
+[21/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/src/hector_uav_msgs/msg/RC.msg std_msgs/Header
+[22/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/src/hector_uav_msgs/msg/Altimeter.msg std_msgs/Header
+[23/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/src/hector_uav_msgs/msg/VelocityXYCommand.msg std_msgs/Header
+[24/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/devel/share/hector_uav_msgs/msg/LandingAction.msg geometry_msgs/Pose:actionlib_msgs/GoalID:std_msgs/Header:hector_uav_msgs/LandingGoal:hector_uav_msgs/LandingActionGoal:geometry_msgs/PoseStamped:geometry_msgs/Point:geometry_msgs/Quaternion:hector_uav_msgs/LandingActionFeedback:hector_uav_msgs/LandingResult:actionlib_msgs/GoalStatus:hector_uav_msgs/LandingFeedback:hector_uav_msgs/LandingActionResult
+[25/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/devel/share/hector_uav_msgs/msg/TakeoffAction.msg geometry_msgs/Pose:actionlib_msgs/GoalID:hector_uav_msgs/TakeoffResult:std_msgs/Header:geometry_msgs/PoseStamped:hector_uav_msgs/TakeoffActionGoal:hector_uav_msgs/TakeoffGoal:hector_uav_msgs/TakeoffActionFeedback:geometry_msgs/Point:geometry_msgs/Quaternion:hector_uav_msgs/TakeoffActionResult:actionlib_msgs/GoalStatus:hector_uav_msgs/TakeoffFeedback
+[26/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/src/hector_uav_msgs/msg/MotorCommand.msg std_msgs/Header
+[27/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/devel/share/hector_uav_msgs/msg/TakeoffActionFeedback.msg geometry_msgs/Pose:actionlib_msgs/GoalID:std_msgs/Header:geometry_msgs/PoseStamped:geometry_msgs/Point:geometry_msgs/Quaternion:actionlib_msgs/GoalStatus:hector_uav_msgs/TakeoffFeedback
+[28/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/devel/share/hector_uav_msgs/msg/PoseActionGoal.msg geometry_msgs/Pose:actionlib_msgs/GoalID:std_msgs/Header:geometry_msgs/PoseStamped:hector_uav_msgs/PoseGoal:geometry_msgs/Point:geometry_msgs/Quaternion
+[29/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/devel/share/hector_uav_msgs/msg/PoseGoal.msg geometry_msgs/Pose:geometry_msgs/Point:geometry_msgs/PoseStamped:std_msgs/Header:geometry_msgs/Quaternion
+[30/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/devel/share/hector_uav_msgs/msg/TakeoffActionGoal.msg actionlib_msgs/GoalID:std_msgs/Header:hector_uav_msgs/TakeoffGoal
+[31/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/src/hector_uav_msgs/msg/ServoCommand.msg std_msgs/Header
+[32/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/devel/share/hector_uav_msgs/msg/LandingFeedback.msg geometry_msgs/Pose:geometry_msgs/Point:geometry_msgs/PoseStamped:std_msgs/Header:geometry_msgs/Quaternion
+[33/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/src/hector_uav_msgs/msg/Supply.msg std_msgs/Header
+[34/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/src/hector_uav_msgs/msg/MotorPWM.msg std_msgs/Header
+[35/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/devel/share/hector_uav_msgs/msg/LandingResult.msg
+[36/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/devel/share/hector_uav_msgs/msg/TakeoffActionResult.msg actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:hector_uav_msgs/TakeoffResult:std_msgs/Header
+[37/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/src/hector_uav_msgs/msg/RawMagnetic.msg std_msgs/Header
+[38/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/src/hector_uav_msgs/msg/MotorStatus.msg std_msgs/Header
+[39/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/devel/share/hector_uav_msgs/msg/LandingActionResult.msg actionlib_msgs/GoalStatus:actionlib_msgs/GoalID:std_msgs/Header:hector_uav_msgs/LandingResult
+[40/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/src/hector_uav_msgs/msg/ThrustCommand.msg std_msgs/Header
+[41/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/src/hector_uav_msgs/srv/EnableMotors.srv
+[42/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/devel/share/hector_uav_msgs/msg/PoseResult.msg
+[43/44] cd /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/hector_uav_msgs && /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build/catkin_generated/env_cached.sh /root/.matlab/R2021b/ros1/glnxa64/venv/bin/python2 /usr/local/MATLAB/R2021b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py hector_uav_msgs /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/src/hector_uav_msgs/msg/Compass.msg std_msgs/Header
+[43/44] Install the project...
+-- Install configuration: "Release"
+-- Installing: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/_setup_util.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/env.sh
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/setup.bash
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/local_setup.bash
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/setup.sh
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/local_setup.sh
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/setup.zsh
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/local_setup.zsh
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/.rosinstall
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/Altimeter.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/AttitudeCommand.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/Compass.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/ControllerState.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/HeadingCommand.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/HeightCommand.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/MotorCommand.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/MotorPWM.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/MotorStatus.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/PositionXYCommand.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/RC.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/RawImu.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/RawMagnetic.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/RawRC.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/RuddersCommand.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/ServoCommand.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/Supply.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/ThrustCommand.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/VelocityXYCommand.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/VelocityZCommand.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/YawrateCommand.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/srv/EnableMotors.srv
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/action/Landing.action
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/action/Pose.action
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/action/Takeoff.action
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/LandingAction.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/LandingActionGoal.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/LandingActionResult.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/LandingActionFeedback.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/LandingGoal.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/LandingResult.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/LandingFeedback.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/PoseAction.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/PoseActionGoal.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/PoseActionResult.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/PoseActionFeedback.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/PoseGoal.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/PoseResult.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/PoseFeedback.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/TakeoffAction.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/TakeoffActionGoal.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/TakeoffActionResult.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/TakeoffActionFeedback.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/TakeoffGoal.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/TakeoffResult.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/msg/TakeoffFeedback.msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/cmake/hector_uav_msgs-msg-paths.cmake
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/Altimeter.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/TakeoffFeedback.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/TakeoffGoal.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/EnableMotorsResponse.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/TakeoffActionFeedback.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/ThrustCommand.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/LandingFeedback.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/LandingActionGoal.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/PoseActionGoal.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/LandingGoal.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/MotorPWM.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/LandingAction.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/TakeoffResult.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/LandingActionFeedback.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/HeightCommand.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/ServoCommand.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/RawImu.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/MotorCommand.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/VelocityXYCommand.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/YawrateCommand.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/ControllerState.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/RawRC.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/RC.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/RawMagnetic.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/PoseGoal.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/PoseFeedback.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/LandingResult.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/PoseAction.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/EnableMotors.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/Compass.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/LandingActionResult.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/Supply.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/RuddersCommand.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/PoseActionResult.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/PoseActionFeedback.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/HeadingCommand.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/PoseResult.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/AttitudeCommand.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/PositionXYCommand.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/VelocityZCommand.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/TakeoffAction.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/EnableMotorsRequest.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/TakeoffActionGoal.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/MotorStatus.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/TakeoffActionResult.h
+Listing /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/hector_uav_msgs ...
+Listing /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/hector_uav_msgs/msg ...
+Listing /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/devel/lib/python2.7/dist-packages/hector_uav_msgs/srv ...
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/__init__.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/srv
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/srv/__init__.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/srv/_EnableMotors.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/srv/_EnableMotors.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/srv/__init__.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_PoseActionGoal.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_MotorPWM.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_TakeoffResult.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_PoseActionFeedback.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_MotorCommand.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_Compass.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/__init__.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_TakeoffActionResult.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_VelocityXYCommand.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_PoseActionGoal.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_Altimeter.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_ThrustCommand.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_RC.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_HeightCommand.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_LandingActionFeedback.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_TakeoffActionFeedback.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_PoseFeedback.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_ServoCommand.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_LandingActionFeedback.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_PositionXYCommand.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_RuddersCommand.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_LandingActionGoal.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_MotorCommand.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_Supply.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_LandingGoal.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_ServoCommand.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_RawImu.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_LandingAction.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_MotorStatus.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_YawrateCommand.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_PoseActionResult.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_Supply.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_AttitudeCommand.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_RawMagnetic.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_TakeoffGoal.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_VelocityZCommand.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_RawMagnetic.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_TakeoffActionGoal.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_TakeoffActionResult.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_RawRC.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_RC.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_LandingResult.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_LandingActionGoal.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_PoseResult.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_Altimeter.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_TakeoffFeedback.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_TakeoffAction.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_LandingActionResult.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_HeadingCommand.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_HeightCommand.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_LandingFeedback.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_PositionXYCommand.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_AttitudeCommand.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_VelocityZCommand.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_HeadingCommand.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_PoseFeedback.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_TakeoffAction.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_MotorPWM.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_RuddersCommand.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_LandingResult.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_VelocityXYCommand.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_TakeoffGoal.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_ControllerState.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_Compass.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_ControllerState.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_PoseAction.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_RawImu.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_TakeoffFeedback.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_LandingAction.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_RawRC.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_PoseResult.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_TakeoffActionFeedback.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_YawrateCommand.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_TakeoffActionGoal.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_LandingFeedback.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_TakeoffResult.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_PoseAction.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_LandingActionResult.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_LandingGoal.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_PoseActionFeedback.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_MotorStatus.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/__init__.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_PoseGoal.pyc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_PoseActionResult.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_ThrustCommand.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/msg/_PoseGoal.py
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/python2.7/dist-packages/hector_uav_msgs/__init__.pyc
+-- Installing: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/pkgconfig/hector_uav_msgs.pc
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/cmake/hector_uav_msgs-msg-extras.cmake
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/cmake/hector_uav_msgsConfig.cmake
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/cmake/hector_uav_msgsConfig-version.cmake
+-- Installing: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/share/hector_uav_msgs/package.xml
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include/hector_uav_msgs/visibility_control.h
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib/libhector_uav_msgs_matlab.so
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m/
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/heightCommand.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/landingActionGoal.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/poseActionFeedback.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/velocityZCommand.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/compass.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/landingResult.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/servoCommand.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/landingActionFeedback.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/yawrateCommand.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/motorStatus.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/takeoffActionFeedback.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/controllerState.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/poseActionResult.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/motorPWM.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/ruddersCommand.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/supply.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/poseResult.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/takeoffFeedback.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/attitudeCommand.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/takeoffGoal.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/rC.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/landingFeedback.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/landingActionResult.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/positionXYCommand.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/velocityXYCommand.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/rawMagnetic.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/altimeter.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/headingCommand.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/poseFeedback.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/takeoffResult.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/poseAction.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/enableMotorsResponse.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/poseActionGoal.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/takeoffAction.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/takeoffActionGoal.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/enableMotorsRequest.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/motorCommand.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/thrustCommand.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/rawRC.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/poseGoal.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/takeoffActionResult.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/rawImu.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/landingAction.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+internal/+ros/+custommessages/+hector_uav_msgs/landingGoal.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/LandingResult.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/EnableMotorsRequest.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/MotorStatus.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/ThrustCommand.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/PoseActionFeedback.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/Compass.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/LandingAction.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/RawImu.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/YawrateCommand.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/MotorCommand.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/TakeoffAction.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/PoseActionGoal.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/PoseResult.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/LandingActionResult.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/TakeoffResult.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/LandingGoal.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/LandingFeedback.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/ControllerState.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/PoseFeedback.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/TakeoffActionResult.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/RawMagnetic.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/PoseActionResult.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/LandingActionFeedback.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/HeightCommand.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/VelocityZCommand.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/TakeoffGoal.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/RawRC.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/RC.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/TakeoffActionFeedback.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/ServoCommand.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/PoseGoal.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/PositionXYCommand.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/EnableMotorsResponse.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/MotorPWM.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/TakeoffActionGoal.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/AttitudeCommand.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/HeadingCommand.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/VelocityXYCommand.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/RuddersCommand.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/Altimeter.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/PoseAction.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/Supply.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/LandingActionGoal.m
+-- Up-to-date: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/m//+ros/+msggen/+hector_uav_msgs/TakeoffFeedback.m
+Base path: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64
+Source space: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/src
+Build space: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build
+Devel space: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/devel
+Install space: /home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install
+####
+#### Running command: "ninja build.ninja" in "/home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build"
+####
+####
+#### Running command: "ninja install install -j12 -l12" in "/home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/build"
+####

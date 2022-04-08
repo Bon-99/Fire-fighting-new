@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<sdf version="1.4">
+  <world name="default">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    <model name="tree1">
+      <pose>5 0 0  0 0 0</pose>
+      <static>true</static>
+      <link name="body">
+        <visual name="visual">
+          <geometry>
+            <mesh><uri>file://greentree2.dae</uri></mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    
+    <model name="tree2">
+      <pose>10 0 0  0 0 0</pose>
+      <static>true</static>
+      <link name="body">
+        <visual name="visual">
+          <geometry>
+            <mesh><uri>file://greentree2.dae</uri></mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    
+    <model name="tree3">
+      <pose>15 0 0  0 0 0</pose>
+      <static>true</static>
+      <link name="body">
+        <visual name="visual">
+          <geometry>
+            <mesh><uri>file://greentree2.dae</uri></mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    
+    <model name="tree4">
+      <pose>20 0 0  0 0 0</pose>
+      <static>true</static>
+      <link name="body">
+        <visual name="visual">
+          <geometry>
+            <mesh><uri>file://greentree2.dae</uri></mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    
+    <model name="tree5">
+      <pose>20 5 0  0 0 0</pose>
+      <static>true</static>
+      <link name="body">
+        <visual name="visual">
+          <geometry>
+            <mesh><uri>file://redtree2.dae</uri></mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    
+    <model name="tree6">
+      <pose>15 5 0  0 0 0</pose>
+      <static>true</static>
+      <link name="body">
+        <visual name="visual">
+          <geometry>
+            <mesh><uri>file://greentree2.dae</uri></mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    
+    <model name="tree7">
+      <pose>10 5 0  0 0 0</pose>
+      <static>true</static>
+      <link name="body">
+        <visual name="visual">
+          <geometry>
+            <mesh><uri>file://greentree2.dae</uri></mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    
+    <model name="tree8">
+      <pose>5 5 0  0 0 0</pose>
+      <static>true</static>
+      <link name="body">
+        <visual name="visual">
+          <geometry>
+            <mesh><uri>file://greentree2.dae</uri></mesh>
+          </geometry>
+        </visual>
+      </link>
+    </model>
+    
+  </world>
+</sdf>
+

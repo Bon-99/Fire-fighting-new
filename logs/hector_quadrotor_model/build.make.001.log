@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target hector_quadrotor_aerodynamics[0m
+[  0%] Built target hector_uav_msgs_generate_messages_cpp
+[35m[1mConsolidate compiler generated dependencies of target hector_quadrotor_propulsion[0m
+[ 50%] Built target hector_quadrotor_aerodynamics
+[100%] Built target hector_quadrotor_propulsion

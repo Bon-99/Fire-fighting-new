@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target hector_gazebo_quadrotor_aerodynamics[0m
+[35m[1mConsolidate compiler generated dependencies of target hector_gazebo_quadrotor_simple_controller[0m
+[  0%] Built target hector_uav_msgs_generate_messages_cpp
+[35m[1mConsolidate compiler generated dependencies of target hector_gazebo_ros_baro[0m
+[35m[1mConsolidate compiler generated dependencies of target hector_gazebo_quadrotor_propulsion[0m
+[ 25%] Built target hector_gazebo_quadrotor_aerodynamics
+[ 50%] Built target hector_gazebo_quadrotor_simple_controller
+[100%] Built target hector_gazebo_ros_baro
+[100%] Built target hector_gazebo_quadrotor_propulsion

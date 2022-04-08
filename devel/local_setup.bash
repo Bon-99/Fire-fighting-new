@@ -1,0 +1,1 @@
+/home/aditya/Fire-fighting-drones/devel/.private/catkin_tools_prebuild/local_setup.bash

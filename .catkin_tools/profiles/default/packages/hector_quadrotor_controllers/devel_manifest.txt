@@ -1,0 +1,6 @@
+hector_quadrotor/hector_quadrotor_controllers
+/home/aditya/Fire-fighting-drones/devel/.private/hector_quadrotor_controllers/cmake.lock /home/aditya/Fire-fighting-drones/devel/./cmake.lock
+/home/aditya/Fire-fighting-drones/devel/.private/hector_quadrotor_controllers/lib/libhector_quadrotor_controllers.so /home/aditya/Fire-fighting-drones/devel/lib/libhector_quadrotor_controllers.so
+/home/aditya/Fire-fighting-drones/devel/.private/hector_quadrotor_controllers/lib/pkgconfig/hector_quadrotor_controllers.pc /home/aditya/Fire-fighting-drones/devel/lib/pkgconfig/hector_quadrotor_controllers.pc
+/home/aditya/Fire-fighting-drones/devel/.private/hector_quadrotor_controllers/share/hector_quadrotor_controllers/cmake/hector_quadrotor_controllersConfig-version.cmake /home/aditya/Fire-fighting-drones/devel/share/hector_quadrotor_controllers/cmake/hector_quadrotor_controllersConfig-version.cmake
+/home/aditya/Fire-fighting-drones/devel/.private/hector_quadrotor_controllers/share/hector_quadrotor_controllers/cmake/hector_quadrotor_controllersConfig.cmake /home/aditya/Fire-fighting-drones/devel/share/hector_quadrotor_controllers/cmake/hector_quadrotor_controllersConfig.cmake

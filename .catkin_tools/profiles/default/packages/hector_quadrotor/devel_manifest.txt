@@ -1,0 +1,2 @@
+hector_quadrotor/hector_quadrotor
+/home/aditya/Fire-fighting-drones/devel/.private/hector_quadrotor/cmake.lock /home/aditya/Fire-fighting-drones/devel/./cmake.lock

@@ -1,0 +1,1 @@
+/home/aditya/Fire-fighting-drones/devel/.private/rviz_hector/lib/pkgconfig/rviz_hector.pc

@@ -1,0 +1,8 @@
+prefix=/home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install
+
+Name: hector_uav_msgs
+Description: Description of hector_uav_msgs
+Version: 0.0.0
+Cflags: -I/home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/include
+Libs: -L/home/aditya/Fire-fighting-drones/src/hector_quadrotor/matlab_msg_gen_ros1/glnxa64/install/lib 
+Requires: message_runtime message_runtime actionlib_msgs geometry_msgs roscpp std_msgs

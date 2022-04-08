@@ -1,0 +1,6 @@
+devel_space: /home/aditya/Fire-fighting-drones/devel
+install: false
+install_space: /home/aditya/Fire-fighting-drones/install
+profile: default
+source_space: /home/aditya/Fire-fighting-drones/src
+workspace: /home/aditya/Fire-fighting-drones

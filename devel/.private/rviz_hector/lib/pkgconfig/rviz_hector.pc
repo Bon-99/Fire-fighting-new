@@ -1,0 +1,8 @@
+prefix=/home/aditya/Fire-fighting-drones/devel/.private/rviz_hector
+
+Name: rviz_hector
+Description: Description of rviz_hector
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,7 @@
+[  0%] Built target hector_uav_msgs_generate_messages_cpp
+[35m[1mConsolidate compiler generated dependencies of target hector_quadrotor_pose_estimation_node[0m
+[ 33%] Built target hector_quadrotor_pose_estimation_node
+[35m[1mConsolidate compiler generated dependencies of target hector_quadrotor_pose_estimation_nodelet[0m
+[35m[1mConsolidate compiler generated dependencies of target hector_quadrotor_pose_estimation[0m
+[100%] Built target hector_quadrotor_pose_estimation
+[100%] Built target hector_quadrotor_pose_estimation_nodelet

@@ -1,0 +1,4 @@
+Symlinking /home/aditya/Fire-fighting-drones/devel/lib/libhector_quadrotor_interface.so
+Symlinking /home/aditya/Fire-fighting-drones/devel/lib/pkgconfig/hector_quadrotor_interface.pc
+Symlinking /home/aditya/Fire-fighting-drones/devel/share/hector_quadrotor_interface/cmake/hector_quadrotor_interfaceConfig-version.cmake
+Symlinking /home/aditya/Fire-fighting-drones/devel/share/hector_quadrotor_interface/cmake/hector_quadrotor_interfaceConfig.cmake

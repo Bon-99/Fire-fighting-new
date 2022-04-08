@@ -1,0 +1,1 @@
+/home/aditya/Fire-fighting-drones/devel/.private/hector_quadrotor_interface/share/hector_quadrotor_interface/cmake/hector_quadrotor_interfaceConfig-version.cmake

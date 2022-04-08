@@ -1,0 +1,5 @@
+[  0%] Built target hector_uav_msgs_generate_messages_cpp
+[ 66%] [32mBuilding CXX object CMakeFiles/hector_quadrotor_interface.dir/src/quadrotor_interface.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/hector_quadrotor_interface.dir/src/helpers.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library /home/aditya/Fire-fighting-drones/devel/.private/hector_quadrotor_interface/lib/libhector_quadrotor_interface.so[0m
+[100%] Built target hector_quadrotor_interface
